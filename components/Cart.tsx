@@ -52,9 +52,6 @@ export function Cart({ isOpen, onClose, onCheckout }: CartProps) {
 
   const total = items.reduce((sum, item) => sum + item.product.price * item.quantity, 0);
 
-  // Expose addItem to parent through window
-  (window as any).cartAddItem = addItem;
-
   return (
     <div
       className={`fixed right-0 top-0 h-full w-full max-w-md bg-background border-l border-border transform transition-transform duration-300 flex flex-col z-50 ${
