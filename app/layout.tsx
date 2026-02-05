@@ -8,7 +8,7 @@ const _geist = Geist({ subsets: ['latin'] })
 const _geistMono = Geist_Mono({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: 'ShopCommand - Natural Language Shopping',
+  title: 'NLCommerce - Natural Language Shopping',
   description: 'Shop with commands. Navigate, filter, and find products using natural language.',
   generator: 'v0.app',
 }

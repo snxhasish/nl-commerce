@@ -37,11 +37,11 @@ export function ProductCard({
       onClick={() => onSelect?.(product)}
     >
       {/* Image Container */}
-      <div className="relative w-full h-48 bg-secondary rounded-t-lg overflow-hidden">
+      <div className="relative w-full aspect-square bg-white rounded-t-lg overflow-hidden">
         <img
           src={product.image || "/placeholder.svg"}
           alt={product.name}
-          className="w-full h-full object-cover group-hover:scale-105 transition-transform"
+          className="w-full h-full object-cover group-hover:scale-105 transition-transform bg-white"
         />
         {product.stock < 10 && (
           <div className="absolute top-2 right-2 px-3 py-1 bg-destructive text-destructive-foreground text-xs rounded-full">
@@ -64,7 +64,7 @@ export function ProductCard({
         {/* Price */}
         <div className="flex items-baseline gap-2">
           <span className="text-xl font-bold text-foreground">
-            ₹{(product.price / 100).toFixed(0)}
+            ${(product.price / 100).toFixed(0)}
           </span>
           <span className="text-sm text-muted-foreground">
             {product.gender !== 'unisex' && `• ${product.gender}`}

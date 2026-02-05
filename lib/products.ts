@@ -24,7 +24,7 @@ export const products: Product[] = [
     colors: ['Black', 'Gray', 'Navy', 'White'],
     sizes: ['XS', 'S', 'M', 'L', 'XL', 'XXL'],
     description: 'Comfortable oversized hoodie perfect for everyday wear',
-    image: 'https://images.unsplash.com/photo-1556821552-5f2e2f5a9a2b?w=500&h=500&fit=crop',
+    image: '/samples/oversized-hoodie-black.png',
     stock: 45,
   },
   {
@@ -37,7 +37,7 @@ export const products: Product[] = [
     colors: ['White', 'Black', 'Pink', 'Blue'],
     sizes: ['XS', 'S', 'M', 'L', 'XL'],
     description: 'Premium 100% cotton hoodie with embroidered details',
-    image: 'https://images.unsplash.com/photo-1556821552-5f2e2f5a9a2b?w=500&h=500&fit=crop',
+    image: '/samples/premium-cotton-hoodie-white.png',
     stock: 32,
   },
   {
@@ -50,7 +50,7 @@ export const products: Product[] = [
     colors: ['Navy', 'Black', 'Gray'],
     sizes: ['S', 'M', 'L', 'XL', 'XXL'],
     description: 'Thermal technology hoodie for cold weather',
-    image: 'https://images.unsplash.com/photo-1556821552-5f2e2f5a9a2b?w=500&h=500&fit=crop',
+    image: '/samples/thermal-tech-hoodie-navy.png',
     stock: 28,
   },
   {
@@ -63,7 +63,7 @@ export const products: Product[] = [
     colors: ['Gray', 'Black', 'Maroon', 'Blue'],
     sizes: ['XS', 'S', 'M', 'L', 'XL', 'XXL'],
     description: 'Casual college-inspired hoodie with trendy designs',
-    image: 'https://images.unsplash.com/photo-1556821552-5f2e2f5a9a2b?w=500&h=500&fit=crop',
+    image: '/samples/college-spirit-hoodie-gray.png',
     stock: 56,
   },
 
@@ -78,7 +78,7 @@ export const products: Product[] = [
     colors: ['Blue', 'Black', 'Gray'],
     sizes: ['28', '30', '32', '34', '36', '38'],
     description: 'Classic slim fit jeans in timeless blue',
-    image: 'https://images.unsplash.com/photo-1542272604-787c62d465d1?w=500&h=500&fit=crop',
+    image: '/samples/slim-fit-blue-jeans.png',
     stock: 67,
   },
   {
@@ -91,7 +91,7 @@ export const products: Product[] = [
     colors: ['Black', 'Blue', 'White'],
     sizes: ['24', '26', '28', '30', '32'],
     description: 'Trendy high waist jeans perfect for all occasions',
-    image: 'https://images.unsplash.com/photo-1542272604-787c62d465d1?w=500&h=500&fit=crop',
+    image: '/samples/high-waist-black-jeans.png',
     stock: 43,
   },
   {
@@ -104,7 +104,7 @@ export const products: Product[] = [
     colors: ['Light Blue', 'Dark Blue', 'Black'],
     sizes: ['XS', 'S', 'M', 'L', 'XL'],
     description: 'Edgy distressed jeans with ripped details',
-    image: 'https://images.unsplash.com/photo-1542272604-787c62d465d1?w=500&h=500&fit=crop',
+    image: '/samples/distressed-ripped-jeans.png',
     stock: 34,
   },
 
@@ -119,7 +119,7 @@ export const products: Product[] = [
     colors: ['Black', 'Gray', 'Navy'],
     sizes: ['30', '32', '34', '36', '38'],
     description: 'Professional formal trousers for business wear',
-    image: 'https://images.unsplash.com/photo-1530268729831-4ca8167eac3f?w=500&h=500&fit=crop',
+    image: '/samples/formal-black-trousers.png',
     stock: 25,
   },
   {
@@ -132,7 +132,7 @@ export const products: Product[] = [
     colors: ['Khaki', 'Gray', 'Beige'],
     sizes: ['XS', 'S', 'M', 'L', 'XL'],
     description: 'Versatile khaki trousers for casual elegance',
-    image: 'https://images.unsplash.com/photo-1530268729831-4ca8167eac3f?w=500&h=500&fit=crop',
+    image: '/samples/casual-khaki-trousers.png',
     stock: 51,
   },
 
@@ -147,7 +147,7 @@ export const products: Product[] = [
     colors: ['White', 'Black', 'Gray', 'Navy'],
     sizes: ['One Size'],
     description: 'Comfortable everyday cotton socks (3-pack)',
-    image: 'https://images.unsplash.com/photo-1556821552-a40be9c4cbb7?w=500&h=500&fit=crop',
+    image: '/samples/cotton-comfort-socks.png',
     stock: 200,
   },
   {
@@ -160,7 +160,7 @@ export const products: Product[] = [
     colors: ['Gray', 'Brown', 'Navy'],
     sizes: ['One Size'],
     description: 'Warm merino wool socks for winter (2-pack)',
-    image: 'https://images.unsplash.com/photo-1556821552-a40be9c4cbb7?w=500&h=500&fit=crop',
+    image: '/samples/premium-wool-socks.png',
     stock: 120,
   },
 
@@ -175,7 +175,7 @@ export const products: Product[] = [
     colors: ['White', 'Black', 'Gray'],
     sizes: ['5', '6', '7', '8', '9', '10', '11', '12', '13'],
     description: 'Timeless white sneakers for all occasions',
-    image: 'https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=500&h=500&fit=crop',
+    image: '/samples/classic-white-sneakers.png',
     stock: 89,
   },
   {
@@ -188,7 +188,7 @@ export const products: Product[] = [
     colors: ['Pink', 'Purple', 'Black', 'White'],
     sizes: ['5', '6', '7', '8', '9', '10', '11'],
     description: 'High-performance running shoes for women',
-    image: 'https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=500&h=500&fit=crop',
+    image: '/samples/womens-running-shoes.png',
     stock: 47,
   },
   {
@@ -201,7 +201,7 @@ export const products: Product[] = [
     colors: ['Black', 'Brown'],
     sizes: ['5', '6', '7', '8', '9', '10'],
     description: 'Elegant black leather boots for all seasons',
-    image: 'https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=500&h=500&fit=crop',
+    image: '/samples/black-leather-boots.png',
     stock: 32,
   },
 
@@ -216,7 +216,7 @@ export const products: Product[] = [
     colors: ['Black', 'White', 'Gray', 'Navy'],
     sizes: ['XS', 'S', 'M', 'L', 'XL', 'XXL'],
     description: 'Comfortable graphic print t-shirt',
-    image: 'https://images.unsplash.com/photo-1516978080064-fbb2c53f6e16?w=500&h=500&fit=crop',
+    image: '/samples/graphic-t-shirt.png',
     stock: 120,
   },
   {
@@ -229,7 +229,7 @@ export const products: Product[] = [
     colors: ['White', 'Black', 'Blue', 'Gray'],
     sizes: ['S', 'M', 'L', 'XL', 'XXL'],
     description: '100% premium cotton t-shirt',
-    image: 'https://images.unsplash.com/photo-1516978080064-fbb2c53f6e16?w=500&h=500&fit=crop',
+    image: '/samples/premium-cotton-tee.png',
     stock: 95,
   },
 
@@ -244,21 +244,8 @@ export const products: Product[] = [
     colors: ['Blue', 'White', 'Black', 'Striped'],
     sizes: ['S', 'M', 'L', 'XL', 'XXL'],
     description: 'Versatile casual button-up shirt',
-    image: 'https://images.unsplash.com/photo-1597070158782-71b205cafed6?w=500&h=500&fit=crop',
+    image: '/samples/casual-button-up-shirt.png',
     stock: 58,
-  },
-  {
-    id: 'sh5',
-    name: 'Womens Blouse',
-    category: 'shirts',
-    gender: 'women',
-    price: 1999,
-    color: 'White',
-    colors: ['White', 'Black', 'Cream', 'Blush'],
-    sizes: ['XS', 'S', 'M', 'L', 'XL'],
-    description: 'Elegant womens blouse for professional settings',
-    image: 'https://images.unsplash.com/photo-1597070158782-71b205cafed6?w=500&h=500&fit=crop',
-    stock: 41,
   },
 
   // Jackets
@@ -272,7 +259,7 @@ export const products: Product[] = [
     colors: ['Blue', 'Black', 'Light Blue'],
     sizes: ['XS', 'S', 'M', 'L', 'XL', 'XXL'],
     description: 'Classic denim jacket for timeless style',
-    image: 'https://images.unsplash.com/photo-1544922278-58c30eb18914?w=500&h=500&fit=crop',
+    image: '/samples/denim-jacket.png',
     stock: 72,
   },
   {
@@ -285,7 +272,7 @@ export const products: Product[] = [
     colors: ['Black', 'Brown'],
     sizes: ['S', 'M', 'L', 'XL', 'XXL'],
     description: 'Premium genuine leather jacket',
-    image: 'https://images.unsplash.com/photo-1544922278-58c30eb18914?w=500&h=500&fit=crop',
+    image: '/samples/leather-jacket.png',
     stock: 28,
   },
   {
@@ -298,7 +285,7 @@ export const products: Product[] = [
     colors: ['Black', 'White', 'Navy', 'Red'],
     sizes: ['XS', 'S', 'M', 'L', 'XL'],
     description: 'Warm puffer jacket with thermal insulation',
-    image: 'https://images.unsplash.com/photo-1544922278-58c30eb18914?w=500&h=500&fit=crop',
+    image: '/samples/puffer-winter-jacket.png',
     stock: 39,
   },
 ];
